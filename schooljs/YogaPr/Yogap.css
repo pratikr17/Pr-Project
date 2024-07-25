@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Main{
+    height: auto;
+    width: 1200px;
+    background-color: rgb(238, 49, 49);
+    margin: auto;
+}
+.Hed{
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.Hed .Hed1{
+height: 100%;
+width: 30%;
+background-color: whitesmoke;
+}
+.Hed1 h1{
+    color: rgb(99, 20, 172);
+    font-size: 45px;
+    line-height: 100px;
+    margin-left: 80px;
+  
+}
+.Hed .Hed2{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+    }
+    .Hed2 h4{
+        line-height: 100px;
+    }
+    .Hed .Hed3{
+        height: 100%;
+        width: 20%;
+        background-color: whitesmoke;
+        }
+       .Hed3 button{
+        padding: 10px 30px;
+        margin: 30px 0 0 30px;
+        background-image: linear-gradient(to right, blue, red);
+        color: white;
+        border: none;
+       } 
+       /* =============================== */
+       .Pic{
+        height: 650px;
+        width: 100%;
+        background-color:whitesmoke;
+        background: url(./yogaimg/m.jpg) no-repeat ;
+        background-size: 100% 100%;
+        /* display: flex; */
+    }
+    .Pic .Pn1{
+        height: 50px;
+        width: 75%;
+        background-color: brown;
+        float: left;
+        background: transparent;
+
+    }
+    .Pn1 ul li{
+        text-decoration: none;
+        float: left;
+        list-style: none;
+        margin: 20px 0 0 50px;
+    }
+    .Pn1 ul{
+        margin-left: 30px;
+    }
+    .Pn1 li a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+    #p {
+        position: relative;
+        display: inline;
+      }
+
+      #p::after {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background-color: rgb(255, 51, 0);
+        height: 6px;
+        width: 0%;
+        transition: 1s;
+      }
+
+      #p:hover::after {
+        width: 100%;
+      }
+    .Pn2{
+        font-size: 30px;
+        color: white;
+        padding: 10px 0 0 25px;
+        float: left;
+    }
+   
+    .Pic .Pn2{
+        height: 50px;
+        width: 25%;
+        background-color: rgb(213, 121, 121);
+        float: left;
+        background: transparent;
+    }
+    .Pn2 ul li{
+        text-decoration: none;
+        float: left;
+        color: white;
+        list-style: none;
+        margin: 7px 0 0 30px;
+        font-size: 30px;
+    }
+    .Pn3{
+        height: 400px;
+        width: 100%;
+
+    }
+    .Pn3 h4{
+        padding: 180px 0 0 80px;
+         color: white;
+    }
+    .Pn3 h1{
+        padding: 30px 600px 0 80px;
+        font-size: 55px;
+        color: white;
+        text-shadow: 4px 3px 2px black;
+    }
+    .Pn4{
+        height: 200px;
+        width: 100%;
+    }
+    .Pn4 button{
+        padding: 10px 30px;
+        margin: 60px 0 0 80px;
+        background-image: linear-gradient(to right, blue, red);
+        color: white;
+        border: none;
+    }
+    /* =============================== */
+
+    .Ho{
+        height: 600px;
+        width: 100%;
+        background-color: wheat;
+        display: flex;
+    }
+    .Ho1{
+        height: 600px;
+        width: 60%;
+        background-color: whitesmoke;
+        display: flex;
+    }
+    .Ho1 .Ho11{
+        height: 80%;
+        width: 45%;
+        background-color:whitesmoke;
+
+        background:url(./yogaimg/h1.jpg) no-repeat;
+              background-size: 100% 100%;
+                margin: 50px 0 0 20px;
+                border-radius: 40px 0 40px;
+                border: 2px solid black;
+    }
+    
+    .Ho1 .Ho22{
+        height: 100%;
+        width: 55%;
+        background-color: whitesmoke;
+        position: relative;
+        
+    }
+    .Ho1 .Ho22 .Hom1{
+        height: 40%;
+        width: 85%;
+        background-color: rgb(163, 83, 83); 
+        
+        background:url(./yogaimg/a1.jpg) no-repeat;
+        background-size:100% 100%;
+          margin: 40px 0 0 20px;;
+          border-radius: 40px 0 40px;
+          border: 2px solid black;
+    }
+    .Ho1 .Ho22 .Hom2{
+        height: 40%;
+        width: 85%;
+        background-color: rgb(163, 83, 83); 
+        
+        background:url(./yogaimg/m3.jpg) no-repeat;
+        background-size:100% 100%;
+          margin: 15px 0 0 20px;;
+          border-radius: 40px 0 40px;
+          border: 2px solid black;
+    }
+    
+    .Ho2{
+        height: 600px;
+        width: 40%;
+        background-color: whitesmoke;
+    }
+    .Ho2 .Hi{
+        height:50px ;
+        width: 100%;
+        margin: 40px 0 0 180px;
+    }
+    .Ho2 h1{
+        margin: 30px 0 0 30px;
+    }
+    .Ho2 p{
+        margin: 10px 30px 0 30px;
+    }
+    .mbt button{
+        padding: 10px 30px;
+        margin: 60px 0 0 80px;
+        background-image: linear-gradient(to right, blue, red);
+        color: white;
+        border: none;
+    }
+    /* ========================== */
